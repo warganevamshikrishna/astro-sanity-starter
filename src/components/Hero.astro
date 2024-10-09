@@ -11,7 +11,7 @@ interface Props extends HeroSection {
 const { heading, body, cta, ...rest } = Astro.props;
 ---
 
-<Section {...rest} class="text-center">
+<Section {...rest} class="text-top">
     {
         heading && (
             <h1 class="text-4xl font-black sm:text-6xl text-balance" data-sb-field-path=".heading">
